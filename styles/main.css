@@ -1,0 +1,140 @@
+body {
+}
+.main {
+    border-top: 3px solid gray;
+    scale:90%;
+}
+.karty {
+    display: flex;
+}
+.karty > * {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+}
+.karta {
+    width: 25%;
+    margin: 1rem;
+    height: 765px;
+}
+.karta__obr {
+    text-align: center;
+}
+.karta__obr--velikost {
+    width: auto;    
+}
+.karta__kod {
+    text-align: right;
+    height: 30px;
+}
+div.karta__garance {
+    position: absolute;
+    z-index: 2;
+    text-align: left;
+    font-size: .9rem;
+}
+.karta__garance_box {
+    display: block;
+    margin-bottom: 5px;
+    border: black 1px solid;
+    background-color: rgba(255,255,255,0.8);
+    padding: 4px;
+    justify-content: center;    
+    align-items: center;
+    color:#262626;
+    text-decoration: none;
+}
+.karta__garance_box:hover {
+    background-color: #bdcfe9;
+}
+.karta__nazevpopis {
+    display: block;
+    height: 200px;
+}
+.karta__nazev {
+    height: 50px;
+}
+div.karta__nazev > a {
+    color:#3662a1;
+    text-decoration: none;
+}
+h2{
+    font-size: 1.1rem;
+    margin:0px;
+}
+.karta__cena {
+    float: left;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #2a4d7f;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.btn {
+    justify-content: center;
+    align-items: center;
+}
+.btn--koupit {
+    margin-top: 0.5rem;
+    float: right;
+    font-weight: 400;
+}
+
+.karta__koupit {
+    background-color: #3662a1;
+    border: 1px solid;
+    border-color: #3662a1;
+    text-align: right;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+}
+.karta__koupit:hover {
+    background-color: #2a4d7f;
+}
+.karta__porovnej {
+    margin-top: 0.2rem;
+    float:right;
+}
+.karta__doseznamu {
+    float: left;
+    justify-content: right;
+}
+.karta__popis {
+    display: block;
+    position: sticky;
+}
+.karta__popisek {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #262626;
+}
+.karta__skladovost {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+div.karta__skladovost > span {
+    display: inline-block;
+}
+.karta__pobocky, .karta__dostani {
+    text-decoration: underline;
+    font-size: 0.9rem;
+}
+.karta__skladem {
+    color:#448d00;
+    font-weight: 600;
+}
+.--text_decoration_none {
+    text-decoration: none;
+}
+.karta__doseznamu::before {
+    content:"♥ ";
+    font-size: 1.2rem;
+    color: gray;
+}
+.karta__doseznamu_porovnej {
+    margin-top: 1rem;
+}
+.karta__cena_koupit {
+    height: 40px;
+}
